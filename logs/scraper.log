@@ -1,0 +1,22 @@
+2025-10-06 10:01:32 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 10:01:32 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 10:01:33 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 10:01:35 INFO  c.k.l.scraper.helpers.SeleniumHelper - Página https://www.linkedin.com/jobs/search?trk=guest_homepage-basic_guest_nav_menu_jobs aberta com sucesso.
+2025-10-06 10:53:55 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 10:53:55 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 10:53:56 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 11:34:09 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 11:34:09 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 11:34:10 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 11:34:28 ERROR com.kaiosantiago.Main - Erro durante a execução do scraper: element not interactable
+  (Session info: chrome=140.0.7339.210)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [def443f2c0fcef47afb2a6aea7c453c5, sendKeysToElement {value=[Ljava.lang.CharSequence;@894858, id=f.6C4AFF22E1A01F934D477AF200C48874.d.6267AEC3FFAAF9FC8F88F1770076057A.e.808}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.210, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\kaios\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52788/devtoo..., se:cdpVersion: 140.0.7339.210, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (def443f2c0fcef47afb2a6aea7c453c5)] -> xpath: //form[@data-tracking-control-name='public_jobs_people-search-bar_base-search-bar-form']/section[1]]
+Session ID: def443f2c0fcef47afb2a6aea7c453c5
+2025-10-06 11:35:35 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 11:35:35 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 11:35:36 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
