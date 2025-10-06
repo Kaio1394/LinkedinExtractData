@@ -1,19 +1,12 @@
-package com.kaiosantiago.linkedin.scraper.helpers;
+package com.kaiosantiago.linkedin.scraper.helpers.selenium;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class SeleniumHelper {
+public class SeleniumHelper extends BaseSelenium {
     private final String browser;
     private final Boolean headless;
     private final String userAgent;
@@ -23,7 +16,7 @@ public class SeleniumHelper {
         this.browser = browser;
         this.headless = headless;
         this.userAgent = userAgent;
-        this.driver = this.createDriver();
+        this.driver = createDriver(this.browser, this.userAgent, this.headless);
     }
 
     private By getBy(String by, String selector){
@@ -43,47 +36,6 @@ public class SeleniumHelper {
         }
     }
 
-    private WebDriver createDriver() {
-        try {
-            switch (this.browser.toLowerCase()) {
-                case "chrome":
-                    WebDriverManager.chromedriver().setup();
-                    ChromeOptions opt = new ChromeOptions();
-                    if (headless) opt.addArguments("--headless=new");
-                    opt.addArguments("--window-size=1920,1080");
-                    opt.addArguments("--disable-gpu");
-                    opt.addArguments("--no-sandbox");
-                    if (userAgent != null && !userAgent.isBlank()) opt.addArguments("user-agent=" + userAgent);
-                    return new ChromeDriver(opt);
-
-                case "firefox":
-                    WebDriverManager.firefoxdriver().setup();
-                    FirefoxOptions optFirefox = new FirefoxOptions();
-                    if (headless) optFirefox.addArguments("--headless");
-                    optFirefox.addArguments("--width=1920");
-                    optFirefox.addArguments("--height=1080");
-                    if (userAgent != null && !userAgent.isBlank())
-                        optFirefox.addPreference("general.useragent.override", userAgent);
-                    return new FirefoxDriver(optFirefox);
-
-                case "edge":
-                    WebDriverManager.edgedriver().setup();
-                    EdgeOptions optEdge = new EdgeOptions();
-                    if (headless) optEdge.addArguments("--headless=new");
-                    optEdge.addArguments("--window-size=1920,1080");
-                    optEdge.addArguments("--disable-gpu");
-                    optEdge.addArguments("--no-sandbox");
-                    if (userAgent != null && !userAgent.isBlank()) optEdge.addArguments("user-agent=" + userAgent);
-                    return new EdgeDriver();
-
-                default:
-                    throw new IllegalArgumentException("Navegador não suportado: " + this.browser);
-            }
-        } catch (WebDriverException e) {
-            throw new RuntimeException("Erro ao criar driver do navegador " + browser, e);
-        }
-    }
-
     public void openUrl(String url) {
         try {
             driver.get(url);
@@ -94,6 +46,7 @@ public class SeleniumHelper {
 
     public void setText(String by, String selector, String text, Boolean withDelayKeystrokes, int milliseconds){
         try{
+            driver.findElement(this.getBy(by, selector)).clear();
             if(!withDelayKeystrokes){
                 driver.findElement(this.getBy(by, selector)).sendKeys(text);
             }else{
@@ -105,6 +58,10 @@ public class SeleniumHelper {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void sendKeystrokes(String by, String selector, Keys key){
+        driver.findElement(getBy(by, selector)).sendKeys(key);
     }
 
     public Boolean elementExists(String by, String selector, int timeout){

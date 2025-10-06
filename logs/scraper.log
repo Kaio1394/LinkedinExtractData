@@ -20,3 +20,69 @@ Session ID: def443f2c0fcef47afb2a6aea7c453c5
 2025-10-06 11:35:35 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
 2025-10-06 11:35:35 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
 2025-10-06 11:35:36 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 16:04:08 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 16:04:08 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 16:04:09 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 16:11:26 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 16:11:26 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 16:11:27 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 16:12:46 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 16:12:46 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 16:12:46 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 16:16:16 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 16:16:16 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 16:16:17 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 17:42:14 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 17:42:14 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 17:42:15 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 17:42:24 ERROR com.kaiosantiago.Main - Erro durante a execução do scraper: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Pesquisar'][@data-tracking-control-name='public_jobs_people-search-bar_base-search-bar-search-submit']"}
+  (Session info: chrome=140.0.7339.210)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1adee909e6fe75a6cb0bfcbe346accf3, findElement {value=//button[@aria-label='Pesquisar'][@data-tracking-control-name='public_jobs_people-search-bar_base-search-bar-search-submit'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.210, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\kaios\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60758}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60758/devtoo..., se:cdpVersion: 140.0.7339.210, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1adee909e6fe75a6cb0bfcbe346accf3
+2025-10-06 17:42:47 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 17:42:47 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 17:42:48 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 17:43:13 ERROR com.kaiosantiago.Main - Erro durante a execução do scraper: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Pesquisar'][@data-tracking-control-name='public_jobs_people-search-bar_base-search-bar-search-submit']"}
+  (Session info: chrome=140.0.7339.210)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2fdfabed4e229bd1da0272aec4791b74, findElement {using=xpath, value=//button[@aria-label='Pesquisar'][@data-tracking-control-name='public_jobs_people-search-bar_base-search-bar-search-submit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.210, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\kaios\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63815}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63815/devtoo..., se:cdpVersion: 140.0.7339.210, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2fdfabed4e229bd1da0272aec4791b74
+2025-10-06 17:47:48 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 17:47:48 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 17:47:49 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 17:49:33 ERROR com.kaiosantiago.Main - Erro durante a execução do scraper: no such element: Unable to locate element: {"method":"xpath","selector":"//section[contains(@class,'base-search-bar')][2]//button[@aria-label='Pesquisar']"}
+  (Session info: chrome=140.0.7339.210)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8609d910a0c4e50329fd4251cf13cd6b, findElement {value=//section[contains(@class,'base-search-bar')][2]//button[@aria-label='Pesquisar'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.210, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\kaios\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59325}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59325/devtoo..., se:cdpVersion: 140.0.7339.210, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8609d910a0c4e50329fd4251cf13cd6b
+2025-10-06 17:49:42 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 17:49:42 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 17:49:43 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 17:50:15 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 17:50:15 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 17:50:16 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 17:51:46 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 17:51:46 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 17:51:47 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 17:52:27 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 17:52:27 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 17:52:28 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 17:53:40 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 17:53:40 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 17:53:41 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
+2025-10-06 17:59:00 INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.207 (resolved driver for Chrome 140)
+2025-10-06 17:59:00 INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kaios\.cache\selenium\chromedriver\win64\140.0.7339.207\chromedriver.exe
+2025-10-06 17:59:01 INFO  com.kaiosantiago.Main - Iniciando aplicação de extração de dados no Linkedin.
